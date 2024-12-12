@@ -1,0 +1,52 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.1-beta",
+  "description": "WhatsApp bot using the Baileys library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js --use-pairing-code"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "wabot",
+    "baileys"
+  ],
+  "author": "AyGemuy",
+  "repository": "https://github.com/AyGemuy/whatsapp-bot",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "plugins": "plugins"
+  },
+  "dependencies": {
+    "@hapi/boom": "latest",
+    "@whiskeysockets/baileys": "latest",
+    "awesome-phonenumber": "latest",
+    "axios": "latest",
+    "pino": "latest",
+    "adm-zip": "latest",
+    "chalk": "latest",
+    "child_process": "latest",
+    "cheerio": "latest",
+    "cluster": "latest",
+    "os": "latest",
+    "express": "latest",
+    "fake-useragent": "latest",
+    "file-type": "latest",
+    "form-data": "latest",
+    "formdata-node": "latest",
+    "image-size": "latest",
+    "lodash": "latest",
+    "moment": "latest",
+    "moment-timezone": "latest",
+    "node-fetch": "latest",
+    "ora": "latest",
+    "qs": "latest",
+    "request": "latest",
+    "syntax-error": "latest",
+    "uuid": "latest",
+    "ws": "latest",
+    "xml2js": "latest"
+  }
+}
